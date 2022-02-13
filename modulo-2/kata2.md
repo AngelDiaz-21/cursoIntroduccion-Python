@@ -8,14 +8,14 @@ Utilizar un entorno virtual como una forma para afectar a los paquetes instalado
 
 Desde la terminal accederemos al directorio donde se guardara el proyecto.
 
-![Directorio del proyecto](/Images/directorio-Proyecto.png "Directorio donde se encuentra el proyecto")
+![Directorio del proyecto](../images/directorio-Proyecto.png "Directorio donde se encuentra el proyecto")
 
 Se creará un entorno virtual mediante *venv*. Se ejecutará el siguiente comando:
 `python -m venv env`
 Después, ejecutaremos el siguiente comando para activar el entorno virtual:
 `env\Scripts\activate`
 
-![Creación del entorno virtual](/Images/creacion-entornoVirtual.png "Creación del entorno virtual")
+![Creación del entorno virtual](../images/creacion-entornoVirtual.png "Creación del entorno virtual")
 
 ### Instalar una biblioteca
 
@@ -27,7 +27,7 @@ Sin embargo, no hay respuesta, así que a continuación se instalará la bibliot
 
 Dando como resultado un mensaje que la bilioteca se ha instalado.
 
-![Instalación de la biblioteca](/Images/instalar-biblioteca.png "Instalación de la biblioteca")
+![Instalación de la biblioteca](../images/instalar-biblioteca.png "Instalación de la biblioteca")
 
 **Nota:**
 Para solucionar el warning que nos sugiere actualizar la versión de pip de 21.2.4 a la versión 22.0.3 tenemos que ir al directorio que nos menciona y ejecutar el comando:
@@ -35,11 +35,11 @@ Para solucionar el warning que nos sugiere actualizar la versión de pip de 21.2
 
 Volveremo a ejecutar el comando *pip freeze* para ver la lista de bibliotecas.
 
-![Lista de bibliotecas instaladas](/Images/bibliotecas-instaladas.png "Lista de bibliotecas instaladas")
+![Lista de bibliotecas instaladas](../images/bibliotecas-instaladas.png "Lista de bibliotecas instaladas")
 
 ### Desactivar un entorno virtual
 
 Cuando se esta trabajando en varios proyectos de Python y se necesite cambiar entre se debe salir (desactivar) el entorno virtual. Para eso se ejecuta el siguiente comando:
 `deactivate`
 
-![Desactivar el entorno virtual](/Images/deactivate-entornoVirtual.png "Desactivar el entorno virtual")
+![Desactivar el entorno virtual](../images/deactivate-entornoVirtual.png "Desactivar el entorno virtual")
