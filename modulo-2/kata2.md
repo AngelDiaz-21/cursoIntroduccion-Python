@@ -1,4 +1,4 @@
-# Módulo 2 - Crear y administrar proyecto
+# Módulo 2 - Crear y administrar proyecto (Katas)
 
 ## Ejercicio - Crear un paquete
 
